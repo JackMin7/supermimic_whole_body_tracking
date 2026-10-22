@@ -2,6 +2,8 @@
 
 在同一静态站立任务上，对比 **MBRL（SuperMimic）** 与 **PPO（原版 BeyondMimic）**，两组各累计训练约 1 小时。
 
+本项目基于 `whole_body_tracking`（BeyondMimic 运动跟踪项目）的代码版本修改而来，在其基础上加入参考 SuperMimic 思路的可微世界模型训练，并开展与 PPO 的对照实验。
+
 这里的标注表示方法来源：MBRL 是基于 SuperMimic 思路的独立适配；PPO 保留原生 RSL-RL PPO 算法，为对齐对照调整了网络、输入和任务接口，并非 BeyondMimic 完整默认配置。
 
 ![60 秒仿真对照，正常速度](media/PPO与MBRL站立对照_60秒动图.gif)
