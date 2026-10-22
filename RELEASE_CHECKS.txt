@@ -1,0 +1,36 @@
+MBRL release validation — 2026-10-22
+
+Earlier packaging checks (before tracking-only cleanup):
+
+PASS: Python source syntax validation.
+PASS: 8 unit tests on the configured remote Linux/CUDA environment.
+PASS: original one-hour MBRL checkpoint loaded through the renamed package,
+      with an explicit motion override; 2-second evaluation completed.
+PASS: public run_comparison.py, 5-second training budget per method, 16 envs.
+      MBRL and PPO training exit codes were both 0.
+      Initial and final 20-second evaluations completed for both methods.
+PASS: comparison plot regenerated from archived numerical results.
+PASS: simulation videos rendered with MBRL labels; preview visually checked.
+PASS: release source/docs/results scanned for obsolete display labels and
+      private machine paths/identifiers; no matches found.
+
+The short run checks packaging and entry points, not policy performance.
+The published scientific results remain the archived one-hour experiment.
+No new full one-hour run or real-robot experiment was performed for renaming.
+External G1 assets, motion data and configured project dependencies are required.
+No remote GitHub repository was created or pushed. License remains unselected.
+
+Tracking-only / Chinese media update:
+PASS: Removed AMP module, training branches and documentation instructions.
+PASS: Python syntax validation and 8 remote unit tests after cleanup.
+PASS: Chinese chart visual review; six ten-minute training log summaries exported.
+PASS: Only 60-second GIF retained; 600 frames, 10 fps, normal speed.
+PASS: GIF sample frame visual review and relative Markdown link validation.
+INCOMPLETE: fresh post-cleanup training smoke test produced no progress output
+for approximately three minutes and was stopped. No new runtime pass is claimed.
+Original one-hour checkpoints/results and original project folders were unchanged.
+No intermediate MBRL checkpoints exist for paired 20/30/40/50-minute evaluation;
+those time points show training-log aggregates only, not invented evaluations.
+
+PASS: README shortened to comparison conditions and results; commands moved to docs/RUNNING.md.
+PASS: Media/chart labels updated with method provenance; relative links checked.

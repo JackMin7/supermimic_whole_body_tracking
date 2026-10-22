@@ -1,0 +1,12 @@
+{
+  "experiment": "PPO vs MBRL static standing",
+  "date": "2026-10-22",
+  "training_minutes_per_arm": 60,
+  "continuation": "10 min + resumed 50 min; simulator/replay restarted",
+  "one_shared_gpu": true,
+  "source_checkpoint_sha256": {
+    "mbrl": "0be1b4108fedab19f8a9cd81932c524ed43f96f29ae2afb809a5f1a47043d7dd",
+    "ppo": "9709c99ce89a89a1c4f447837ab05cd7c7c573d4f62d74ee3f40b6b76db7b6a7"
+  },
+  "motion_sha256": "93f0966fe97fab142fb4eff65bb8a227e3b67cf8d5324be2fce8a6cbcb10d466"
+}

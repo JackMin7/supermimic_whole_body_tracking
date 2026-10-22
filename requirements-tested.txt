@@ -1,0 +1,12 @@
+# Versions observed in the tested Linux CUDA environment; not a standalone installer.
+# Robot src/, the vendor mjlab snapshot and AMP's legacy rsl_rl fork are external.
+torch==2.7.0
+numpy==2.4.6
+mujoco==3.11.0
+mjlab==1.2.0
+rsl-rl-lib==5.0.1
+tensordict==0.14.0
+imageio==2.37.0
+Pillow==11.3.0
+matplotlib==3.10.0
+# Tested Torch wheel: 2.7.0+cu128. GPU/CUDA environment is required for simulation.

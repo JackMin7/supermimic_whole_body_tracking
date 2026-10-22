@@ -1,0 +1,62 @@
+{
+  "mbrl": {
+    "training_exit_code": 0,
+    "at_10min": {
+      "mean_time_before_failure_s": 2.520623207092285,
+      "survivors": 0,
+      "environments": 32,
+      "task_return": 7.874685287475586,
+      "duration_s": 20.0,
+      "joint_rmse_before_failure_rad": 0.3723011873093725,
+      "note": "Nominal simulation diagnostic, not independent seeds or real-robot validation"
+    },
+    "at_60min": {
+      "mean_time_before_failure_s": 20.000267028808594,
+      "survivors": 32,
+      "environments": 32,
+      "task_return": 95.45944213867188,
+      "duration_s": 20.0,
+      "joint_rmse_before_failure_rad": 0.14380764079838992,
+      "note": "Nominal simulation diagnostic, not independent seeds or real-robot validation"
+    },
+    "long60": {
+      "mean_time_before_failure_s": 60.001182556152344,
+      "survivors": 32,
+      "environments": 32,
+      "task_return": 283.73492431640625,
+      "duration_s": 60.0,
+      "joint_rmse_before_failure_rad": 0.14927161482473214,
+      "note": "Nominal simulation diagnostic, not independent seeds or real-robot validation"
+    }
+  },
+  "ppo": {
+    "training_exit_code": 0,
+    "at_10min": {
+      "mean_time_before_failure_s": 1.8581238985061646,
+      "survivors": 0,
+      "environments": 32,
+      "task_return": 5.374945163726807,
+      "duration_s": 20.0,
+      "joint_rmse_before_failure_rad": 0.33214065981327845,
+      "note": "Nominal simulation diagnostic, not independent seeds or real-robot validation"
+    },
+    "at_60min": {
+      "mean_time_before_failure_s": 9.627598762512207,
+      "survivors": 12,
+      "environments": 32,
+      "task_return": 27.90084457397461,
+      "duration_s": 20.0,
+      "joint_rmse_before_failure_rad": 0.4145235399007797,
+      "note": "Nominal simulation diagnostic, not independent seeds or real-robot validation"
+    },
+    "long60": {
+      "mean_time_before_failure_s": 31.694339752197266,
+      "survivors": 16,
+      "environments": 32,
+      "task_return": 95.4171142578125,
+      "duration_s": 60.0,
+      "joint_rmse_before_failure_rad": 0.4191871142548819,
+      "note": "Nominal simulation diagnostic, not independent seeds or real-robot validation"
+    }
+  }
+}

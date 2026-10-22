@@ -1,0 +1,26 @@
+{
+  "source": "Recorded physical-simulator trajectories, not generated animation",
+  "replica": 0,
+  "training_minutes": 60,
+  "fps": 25,
+  "failure_display": "Freeze last recorded pre-termination frame; no reset replay",
+  "20s": {
+    "ppo": 3.46,
+    "mbrl": null
+  },
+  "60s": {
+    "ppo": 3.7,
+    "mbrl": null
+  },
+  "display_labels": {
+    "ppo": "PPO (Original BeyondMimic)",
+    "mbrl": "MBRL (SuperMimic)"
+  },
+  "label_scope": "Method provenance; PPO inputs/networks/task interface matched, MBRL independently adapted",
+  "gif": {
+    "file": "PPO与MBRL站立对照_60秒动图.gif",
+    "duration_s": 60,
+    "fps": 10,
+    "speed": 1
+  }
+}
